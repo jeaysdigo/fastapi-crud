@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv/
+env/
+env.bak/
+.venv/
+.venv.bak/
+
+# IDE Files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest
+.cache
+pytest_cache/
+
+# Coverage
+coverage.xml
+*.cover
+*.coverage
+*.hypothesis/
+.coverage.*
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment Variables
+*.env
+.env.*
+
+# Docker
+*.dockerignore
+Dockerfile*
+docker-compose*.yml
+
+# Byte-compiled files
+*.py[cod]
+
+# FastAPI specific
+*.sqlite3
+*.json
+
+# Other files
+*.egg-info/
+dist/
+build/
